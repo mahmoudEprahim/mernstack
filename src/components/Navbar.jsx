@@ -119,13 +119,13 @@ const Navbar = () => {
               </Link>
             </>
           )}
-          {/* <button
+          { <button
             className={styles.toggleBtn}
             onClick={toggleDarkMode}
             aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
           >
             {darkMode ? <FaSun /> : <FaMoon />}
-          </button> */}
+          </button> }
         </div>
       )}
 
